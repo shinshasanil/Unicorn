@@ -27,7 +27,7 @@ const NavBar = () => {
             <Nav.Link className="text-dark" href="/about">About</Nav.Link>
             <Nav.Link className="text-dark" href="/blog">Blog</Nav.Link>
           </Nav>
-           <div className="input-group  w-50 container">
+           <div className="input-group d-md-flex w-50 container  d-none">
                 <input type="text" className="form-control" placeholder="Search what you need" aria-label="Insert your mail here" aria-describedby="basic-addon2"/>
                 <span className="input-group-text bg-orange text-white p-1" id="basic-addon2">
                     <FiSearch/>
